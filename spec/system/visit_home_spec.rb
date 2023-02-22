@@ -6,6 +6,6 @@ describe 'Visitante acessa a pagina inicial' do
     # Act
     visit root_path
     # Assert
-    expect(page).to have_content('Bem vindo')
+    expect(page).to have_content('Welcome')
   end
 end

@@ -5,7 +5,7 @@ describe 'Visit books index' do
       # Arrange
       # Act
       visit root_path
-      click_on 'books'
+      click_on 'Books'
       # Assert
       expect(page).to have_content('Books')
     end

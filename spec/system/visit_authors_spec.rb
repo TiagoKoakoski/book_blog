@@ -5,7 +5,7 @@ describe 'Visit authors index' do
     # Arrange
     # Act
     visit root_path
-    click_on 'authors'
+    click_on 'Authors'
     # Assert
     expect(page).to have_content('Authors')
   end

@@ -1,24 +1,22 @@
 # README
+Tiago Koakoski - 22/02/2023
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Desenvolvido para desafio "Criando o seu Blog com Ruby on Rails" do Bootcamp Ruby Developer da DIO.
 
-Things you may want to cover:
+Utilizando o sistema:
 
-* Ruby version
+No terminal executar:
+```bash
+bundler install
+```
+Subindo o sistema:
+```bash
+rails s
+```
 
-* System dependencies
+Para realizar os testes utilizar o comando:
+```ruby
+rspec
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cobertura via Simplecov em 100%, relatorios na pasta "coverage".
